@@ -1,0 +1,68 @@
+body{
+width:95%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 207, 207);
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(7,1fr);
+    background-color: aquamarine;
+    padding: 20px;
+    margin:30px auto;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px 4px  rgba(0, 0, 0, 0.06) ;
+    border-radius: 5px;
+}
+.container div{
+   
+    height:65px;
+}
+.container .input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.title{
+    grid-column: 1/span 2;
+}
+.Address{
+    grid-column:1/span 2 ;
+}
+.but{
+    grid-column: 2/span 1;
+    display: flex;
+    padding: 5px;
+ 
+    flex-direction: row-reverse;
+    justify-content: end;
+margin: auto 10px;
+}
+input,select,textarea{
+    width: 100%;
+  padding: 7px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button{
+    color: white;
+    background-color: red;
+    padding: 0px 14px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  
+}
+.CV{
+    display: flex;
+    align-items: center;
+}

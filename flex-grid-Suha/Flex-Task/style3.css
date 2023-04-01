@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:80%;
+    height:auto;
+    background-color: black;
+
+}
+
+header ul{
+   list-style: none;
+   margin-top:0;
+   display:flex;
+   justify-content: flex-end;
+   align-items: center;
+   
+}
+header ul li
+{
+   padding:4px;
+   margin:4px;
+}
+header ul li a{
+    text-decoration: none;
+    color:white;
+}
+.A{
+    
+    width:20px;
+    height: px;
+    text-align: center;
+    border-radius:50% ;
+    background-color: red;
+}
+section{
+   
+    text-align: center;
+    font-size: x-large;
+    font-weight:bolder;
+    color:white;
+
+    
+}
+.search-section input{
+    width:300px;
+    height:25px;
+    background-color: black;
+    border:1px solid rgba(255, 255, 255, 0.419);
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+}
+.search-section {
+    position: relative;
+   bottom:20px;
+}
+.search-section .img1 {
+    position: absolute;
+    left:410px;
+    top:10px;
+    opacity: 0.7;
+}
+.search-section .img2 {
+    position: absolute;
+    right:410px;
+    top:10px;
+}
+section button{
+    padding: 7px;
+    padding:7px 15px 7px 15px;
+    border-radius:5px;
+    border:none;
+    color:rgba(255, 255, 255, 0.751);
+    background-color:rgba(71, 69, 69, 0.497);
+    font-size:10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.last-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-section h6{
+    font-size:10px;
+    margin-right:5px;
+    color:rgba(255, 255, 255, 0.751);
+}
+.last-section a{
+    font-size:10px;
+    margin-right:10px;
+    text-decoration: none;
+    color:rgb(143, 72, 248);
+}
